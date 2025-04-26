@@ -610,7 +610,35 @@ p {
     background-color: #31d0aa;
     ;
 }
+.form-input-footer {
+    display: flex;
 
+}
+.label-footer {
+    gap: 24px;
+}
+.footer-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: #ffffff;
+}
+
+.footer-input::placeholder {
+    color: #ffffff;
+}
+
+.form-input {
+    display: flex;
+    gap: 24px;
+}
 /* < !-- #endregion Footer --> */
 /* < !-- #Modalnevikno --> */
 .backdrop {
