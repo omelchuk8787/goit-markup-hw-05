@@ -142,17 +142,19 @@ p {
     color: #4d5ae5;
 }
 
+
 .ul-nav {
-    display: flex;
-    gap: 40px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    line-height: 24px;
-    color: #2e2f42;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+        display: flex;
+        gap: 40px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        line-height: 24px;
+        color: #2e2f42;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
 
 .link {
     font-family: "Roboto", sans-serif;
@@ -165,13 +167,18 @@ p {
     color: #2e2f42;
     display: block;
     padding: 24px 0;
-    position: relative;
-    color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.link::after {
+
+
+
+.studio-link {
+    position: relative;
+    color: #404bbf;
+}
+.studio-link::after {
     content: "";
     position: absolute;
     left: 0;
@@ -182,13 +189,11 @@ p {
     border-radius: 2px;
 
 }
-
 .ul-nav .link:hover,
 .link:active,
 .ul-nav .link:focus {
     color: #404bbf;
 }
-
 .address {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -208,13 +213,13 @@ p {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
-    position: relative;
-    color: #404bbf;
+    /* position: relative;
+    color: #404bbf; */
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.contact-info::after {
+/* .contact-info::after {
     content: "";
     position: absolute;
     left: 0;
@@ -223,7 +228,7 @@ p {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-}
+} */
 
 
 .contact-info:hover,
